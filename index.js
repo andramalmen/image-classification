@@ -14,6 +14,7 @@ const app = async () => {
         const predictions = await model.classify(img);
 
         img.dispose();
+        console.log(predictions);
         return predictions;
     };
 };
