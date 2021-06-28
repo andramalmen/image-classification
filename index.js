@@ -1,6 +1,3 @@
-// import '@tensorflow/tfjs';
-// import '@tensorflow-models/mobilenet';
-
 const app = async () => {
     const webcamElement = document.getElementsByTagName('video')[0];
     const model = await mobilenet.load();
