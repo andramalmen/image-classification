@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "parcel *.html",
-        "build": "parcel build index.html head.html"
+        "dev": "parcel *.html *.js",
+        "build": "parcel build *.html *.js"
     },
     "keywords": [],
     "author": "",
@@ -15,8 +15,6 @@
     },
     "dependencies": {
         "@tensorflow-models/mobilenet": "^2.1.0",
-        "@tensorflow/tfjs": "^3.7.0",
-        "install": "^0.13.0",
-        "npm": "^7.19.0"
+        "@tensorflow/tfjs": "^3.7.0"
     }
 }
